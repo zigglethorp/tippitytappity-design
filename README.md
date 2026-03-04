@@ -9,10 +9,8 @@ tippitytappity is a program to practice typing
 classDiagram
   TypingSession <|-- Phrase
   class Phrase{
-        - id: string
-        - Text: string
-        - Source: string
-        + difficultyRatting: string
+        + id: string
+        + Text: string
   }
   TypingSession <|-- RandomPhraseRepo
   class RandomPhraseRepo{

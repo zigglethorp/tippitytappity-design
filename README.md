@@ -29,6 +29,8 @@ classDiagram
         + resetTimer: void 
         + accuracy: double
         + durration: sessionElapsed
+        + userTime: datetime
+        + userAccuracy: double
   }
 
   class TypingSession{
